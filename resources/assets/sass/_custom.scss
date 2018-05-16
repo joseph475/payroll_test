@@ -1,0 +1,169 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.sidenav{
+    width: 250px;
+}
+header, main, footer {
+    padding-left: 250px;
+    // padding-right: 250px;
+}
+@media only screen and (max-width : 992px) {
+      header, main, footer {
+        padding-left: 0;
+      }
+}
+.nav-container{
+  padding-right: 200px;
+}
+.nav-wrapper a:hover,.nav-wrapper a:hover a{
+    text-decoration: none;
+    color:white;
+}
+.sidenav li:hover a{
+    text-decoration: none;
+}
+.nav-wrapper.main{
+    background-color: #2a363b;
+    padding-left: 10px;
+}
+.page-footer{
+    background-color: #2a363b;
+}
+.sidenav .user-view{
+    background-color: #11afdb; 
+    padding: 20px 20px 3px 15px;
+}
+.sidenav .user-view .name{
+    margin-top: 5px;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+.role{
+    margin: 0px;
+    margin-bottom: 10px;
+    padding: 0px; 
+}
+.sidenav li.user-test{
+    line-height: 25px;
+}
+.icon{
+    font-size: 25px;
+}
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: ">";
+}
+ul.breadcrumb{
+    padding-left: 10px;
+    background-color: white;
+}
+ul.breadcrumb a{
+    text-decoration: none;
+    color:black;
+}
+
+.btn{
+    line-height: 25px;
+    border-radius: 0;
+    color:white;
+}
+.btn-jos{
+    background-color: #11afdb;
+   
+}
+.btn-abi{
+    background-color:  #2e2e2e;
+    opacity: 0.8;
+}
+
+.btn:hover{
+    background-color:white;
+}
+a:hover{
+    color:black;
+}
+.modal-row{
+    margin: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+.container-jos{
+    margin: 30px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+.modal{
+    overflow-y: auto
+}
+.jos-modal{
+    border: 3px solid #11afdb;
+}
+.modal-content{
+    padding-top: 5px !important;
+    border: none;
+}
+.input-field .prefix{
+    top:0;
+    margin-left:0;
+}
+
+.input-field{
+    padding-top: 0;
+    margin: 0px;
+}
+.myinput-with-prefix{
+    margin-left: 3rem !important;
+}
+.myrow{
+    margin-bottom: 5px !important;
+}
+
+.myinput, .select-wrapper input.select-dropdown{
+    height: 2.5rem !important;
+}
+.file-field .btn{
+    height: 2.5rem;
+    line-height: 1.9rem;
+}
+.file-field .file-path-wrapper{
+    padding-left: 0;
+}
+.paging{
+    margin-top: 10px;
+}
+
+.pagination .active a{
+    background-color: #11afdb;
+}
+.emp_details{
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.h5-header{
+    background-color: #2a363b;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 8px;
+    color:white
+}
+
+img.emp_photo{
+    width: 140px;
+    height: 150px;
+    border: 1px solid gray;
+}
+.emp_details_table tr, .emp_details_table td{
+        padding: 8px 8px;
+}
