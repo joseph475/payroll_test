@@ -52,7 +52,7 @@
                             </tr>
                         </table>
                     </div>
-                    <div class="col-sm-3" style="padding-top:10px;">
+                    <div class="col-sm-3 pull-s3" style="padding-top:10px;">
                         <div class="row">
                             <div class="col-sm-12">                               
                                 <a class="waves-effect waves btn modal-trigger btn-jos right emp_details_btn tooltipped" href="#" data-tooltip="Save Record">
@@ -199,19 +199,22 @@
                             </td>
                         </tr>
                         <tr>
-                            <td class="label">Hired Date</td>
+                            <td class="label">Employment Status</td>
                             <td>
-                                <div class="input-field col s12 m12">
-                                     <i class="material-icons prefix">date_range</i>
-                                    <input type="text" class="datepicker">
+                                <div class="input-field col s12">
+                                    <select>
+                                        <option value="1" selected>Probationary</option>
+                                        <option value="2">Regular</option>
+                                        <option value="3">Contractual</option>
+                                    </select>
                                 </div>
                             </td>
                         </tr>
                         <tr>
-                            <td class="label">Regularized</td>
+                            <td class="label">Remarks</td>
                             <td>
-                                <div class="input-field col s12 m12">
-                                    <input id="first_name" type="text" class="validate btn-add-jos">
+                                <div class="input-field col s12">
+                                    <textarea id="textarea1" class="materialize-textarea my-textarea"></textarea>
                                 </div>
                             </td>
                         </tr>
@@ -220,26 +223,29 @@
                 <div class="col-sm-6">
                     <table class="add_emp_table info">
                         <tr>
+                            <td class="label">Hired Date</td>
+                            <td>
+                                <div class="input-field col s12 m12">
+                                    <i class="material-icons prefix">date_range</i>
+                                    <input type="text" class="datepicker">
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="label">Regularized</td>
+                            <td>
+                                <div class="input-field col s12 m12">
+                                    <i class="material-icons prefix">date_range</i>
+                                    <input type="text" class="datepicker">
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
                             <td class="label">EOC</td>
                             <td>
                                 <div class="input-field col s12 m12">
-                                    <input id="first_name" type="text" class="validate btn-add-jos">
-                                </div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="label">Terminated</td>
-                            <td>
-                                <div class="input-field col s12 m12">
-                                    <input id="first_name" type="text" class="validate btn-add-jos">
-                                </div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="label">Resigned</td>
-                            <td>
-                                <div class="input-field col s12 m12">
-                                    <input id="first_name" type="text" class="validate btn-add-jos">
+                                     <i class="material-icons prefix">date_range</i>
+                                    <input type="text" class="datepicker">
                                 </div>
                             </td>
                         </tr>
@@ -254,7 +260,8 @@
                             <td class="label">Birthday</td>
                             <td>
                                 <div class="input-field col s12 m12">
-                                    <input id="first_name" type="text" class="validate btn-add-jos">
+                                     <i class="material-icons prefix">date_range</i>
+                                    <input type="text" class="datepicker">
                                 </div>
                             </td>
                         </tr>
@@ -312,7 +319,7 @@
                             <td>
                                 <div class="input-field col s12">
                                     <select>
-                                        <option value="1" selected>Pilipino</option>
+                                        <option value="1" selected>Filipino</option>
                                         <option value="2">American</option>
                                     </select>
                                 </div>

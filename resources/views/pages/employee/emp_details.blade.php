@@ -127,6 +127,23 @@
                         <td>33333333</td>
                     </tr>
                     <tr>
+                        <td class="label">Employment Status</td>
+                        <td>Probationary</td>
+                    </tr>
+                    <tr>
+                        <td class="label">Current Status</td>
+                        <td>Active</td>
+                    </tr>
+                    <tr>
+                        <td class="label">Remarks</td>
+                        <td>Testing</td>
+                    </tr>
+                    
+                </table>
+            </div>
+            <div class="col-sm-6">
+                <table class="emp_details_table info">
+                    <tr>
                         <td class="label">Hired Date</td>
                         <td>May 15, 2016</td>
                     </tr>
@@ -134,10 +151,6 @@
                         <td class="label">Regularized</td>
                         <td>May 15, 2016</td>
                     </tr>
-                </table>
-            </div>
-            <div class="col-sm-6">
-                <table class="emp_details_table info">
                     <tr>
                         <td class="label">EOC</td>
                         <td>May 15, 2016</td>

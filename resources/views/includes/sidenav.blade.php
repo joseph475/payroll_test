@@ -27,7 +27,7 @@
                 <a class="collapsible-header"><i class="material-icons">business</i>Company<i class="material-icons right">arrow_drop_down</i></a>
                 <div class="collapsible-body">
                     <ul>
-                        <li><a href="{{ url('/company') }}"><i class="icon ion-ios-information-outline"></i>Company Info</a></li>
+                        <li><a href="{{ url('/company') }}"><i class="material-icons">info</i>Company Info</a></li>
                         <li><a href="{{ url('/branch') }}"><i class="material-icons">store</i>Setup Branch</a></li>
                         <li><a href="#!"><i class="material-icons">toys</i>Payroll Rates</a></li>
                     </ul>
