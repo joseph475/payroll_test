@@ -25,7 +25,7 @@
 
             </div>
             <div class="input-field col-sm-3">
-                <a class="waves-effect waves btn modal-trigger btn-jos right" href="#modal1" style="padding-left:15px;padding-right:20px; margin-bottom:10px;">
+                <a class="waves-effect waves btn modal-trigger btn-jos right" href="{{ url('/employee/create') }}" style="padding-left:15px;padding-right:20px; margin-bottom:10px;">
                 <i class="material-icons left">add</i>Add Employee</a>
             </div>  
         </div> 

@@ -29,7 +29,7 @@ class EmpMasterFileController extends Controller
      */
     public function create()
     {
-        //
+        return view('pages.employee.add_employee');
     }
 
     /**

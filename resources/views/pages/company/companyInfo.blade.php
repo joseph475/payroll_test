@@ -8,7 +8,7 @@
     </div>
     <div class="table-wrapper">
         
-        <table class="responsive-table highlight white z-depth-1">
+        <table class="highlight white z-depth-1">
             <tbody>
                 <tr>
                     <td style="width:35%">Company Code:</td>
