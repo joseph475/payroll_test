@@ -1,5 +1,5 @@
 @section('sidenav')
-    <ul id="slide-out" class="sidenav sidenav-fixed z-depth-1">
+    <ul id="slide-out" class="sidenav sidenav-fixed z-depth-2">
         <li class="user-test">
             <div class="user-view">
 

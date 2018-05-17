@@ -1,6 +1,6 @@
 @section('header')
 <header>
-    <div class="navbar-fixed">
+    <div class="navbar-fixed z-depth-1">
         <nav>
             <div class="nav-wrapper main">
                 <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
