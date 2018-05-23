@@ -16,6 +16,7 @@ Route::get('/', function () {
 });
 
 Route::get('/employee/details', 'employee\EmpMasterFileController@details');
+Route::get('/employee/job-order', 'employee\EmpMasterFileController@joborder');
 
 Route::resource('/system', 'system\SystemController');
 // Company folder

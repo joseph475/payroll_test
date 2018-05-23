@@ -51,7 +51,7 @@
                 <div class="collapsible-body">
                     <ul>
                         <li><a href="{{ url('/employee') }}"><i class="material-icons">collections</i>Masterfile</a></li>
-                        <li><a href="#!"><i class="material-icons">work</i>Job Order</a></li>
+                        <li><a href="{{ url('/employee/job-order') }}"><i class="material-icons">work</i>Job Order</a></li>
                         <li><a href="#!"><i class="icon ion-plus"></i>Earnings</a></li>
                         <li><a href="#!"><i class="icon ion-minus"></i>Deductions</a></li>
                     </ul>

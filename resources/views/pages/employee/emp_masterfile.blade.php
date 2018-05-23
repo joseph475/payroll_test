@@ -55,7 +55,7 @@
                         <td>Programmer</td>
                         <td>Regular</td>
                         <td>
-                            <a class="waves-effect waves btn modal-trigger btn-abi" href="{{url('/employee/details')}}" target="_blank">
+                            <a class="waves-effect waves btn modal-trigger btn-abi tooltipped" href="{{url('/employee/details')}}" target="_blank" data-tooltip="View Details">
                             <i class="material-icons left">pageview</i>View</a>
                         </td>
                     </tr>
@@ -69,7 +69,7 @@
                         <td>Programmer</td>
                         <td>Regular</td>
                         <td>
-                            <a class="waves-effect waves btn modal-trigger btn-abi" href="#">
+                            <a class="waves-effect waves btn modal-trigger btn-abi tooltipped" href="#" data-tooltip="View Details">
                             <i class="material-icons left">pageview</i>View</a>
                         </td>
                     </tr>

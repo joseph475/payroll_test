@@ -21,6 +21,10 @@ class EmpMasterFileController extends Controller
     {
         return view('pages.employee.emp_details');
     }
+    public function joborder()
+    {
+        return view('pages.employee.job_order');
+    }
 
     /**
      * Show the form for creating a new resource.
