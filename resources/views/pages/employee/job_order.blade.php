@@ -33,7 +33,7 @@
                     <td>15000</td>
                     <td>May 19, 2018</td>
                     <td>Hiring Rate</td>
-                    <td>
+                    <td style="text-align:center;">
                         <a class="waves-effect waves btn modal-trigger btn-abi emp_details_btn tooltipped" href="#modal1" data-tooltip="Add New Job Order">
                             <i class="material-icons left">add</i>
                         </a>
@@ -54,7 +54,7 @@
                     <td>15000</td>
                     <td>May 19, 2018</td>
                     <td>Hiring Rate</td>
-                    <td>
+                    <td style="text-align:center;">
                         <a class="waves-effect waves btn modal-trigger btn-abi emp_details_btn tooltipped" href="#modal1" data-tooltip="Add New Job Order">
                             <i class="material-icons left">add</i>
                         </a>
