@@ -10517,9 +10517,9 @@ a:hover {
 }
 
 .modal-row {
-  margin: 0px;
-  padding-bottom: 0px;
-  padding-top: 0px;
+  margin: 5px;
+  padding-bottom: 5px;
+  padding-top: 5px;
 }
 
 .container-jos {
@@ -10675,5 +10675,43 @@ table td {
 
 .datepicker-controls .select-month input {
   width: 100%;
+}
+
+.modal .t1 {
+  width: 100%;
+}
+
+.modal .input-field input,
+.modal .select-wrapper input.select-dropdown {
+  height: 2.2rem !important;
+  border: 3px ridge #e7dada !important;
+  text-indent: 7px;
+  margin-bottom: 2.5rem !important;
+  border-radius: 3px !important;
+  font-size: 14px !important;
+}
+
+@media only screen and (min-width: 601px) {
+  .datepicker-modal {
+    min-width: 600px !important;
+  }
+}
+
+.datepicker-controls {
+  margin-top: 10px;
+}
+
+.datepicker-date-display .date-text {
+  font-size: 2rem !important;
+}
+
+.modal table td {
+  padding-left: 0px !important;
+}
+
+@media only screen and (max-width: 992px) {
+  nav .brand-logo {
+    left: 44%;
+  }
 }
 

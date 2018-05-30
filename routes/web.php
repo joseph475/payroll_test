@@ -18,11 +18,15 @@ Route::get('/', function () {
 Route::get('/employee/details', 'employee\EmpMasterFileController@details');
 Route::get('/employee/job-order', 'employee\EmpMasterFileController@joborder');
 
+Route::get('/system/setup-earnings', 'system\SystemController@setup_earnings');
+Route::get('/system/setup-deductions', 'system\SystemController@setup_deductions');
+
 Route::resource('/system', 'system\SystemController');
 // Company folder
 Route::resource('/company', 'company\CompanyController');
 Route::resource('/branch', 'company\BranchController');
 // employee folder
 Route::resource('/employee', 'employee\EmpMasterFileController');
+Route::resource('/system', 'system\SystemController');
 
 

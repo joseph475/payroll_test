@@ -40,8 +40,8 @@
                     <ul>
                         <li><a href="#!"><i class="material-icons">security</i>Security</a></li>
                         <li><a href="#!"><i class="icon ion-asterisk"></i>Variables</a></li>
-                        <li><a href="#!"><i class="icon ion-plus"></i>Earnings</a></li>
-                        <li><a href="#!"><i class="icon ion-minus"></i>Deductions</a></li>
+                        <li><a href="{{ url('/system/setup-earnings') }}"><i class="icon ion-plus"></i>Earnings</a></li>
+                        <li><a href="{{ url('/system/setup-deductions') }}"><i class="icon ion-minus"></i>Deductions</a></li>
                     </ul>
                 </div>
             </li>

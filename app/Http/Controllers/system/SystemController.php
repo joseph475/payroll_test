@@ -26,7 +26,14 @@ class systemController extends Controller
     {
         //
     }
-
+    public function setup_earnings()
+    {
+        return view('pages.system.setup_earnings');
+    }
+    public function setup_deductions()
+    {
+        return view('pages.system.setup_deductions');
+    }
     /**
      * Store a newly created resource in storage.
      *

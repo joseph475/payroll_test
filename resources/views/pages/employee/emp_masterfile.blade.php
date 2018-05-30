@@ -21,10 +21,7 @@
                     <option value="5">Status</option>
                 </select>
             </div>
-            <div class="col-sm-2">
-
-            </div>
-            <div class="input-field col-sm-3">
+            <div class="input-field col-sm-5">
                 <a class="waves-effect waves btn modal-trigger btn-jos right" href="{{ url('/employee/create') }}" style="padding-left:15px;padding-right:20px; margin-bottom:10px;">
                 <i class="material-icons left">add</i>Add Employee</a>
             </div>  
